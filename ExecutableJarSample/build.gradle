@@ -29,7 +29,10 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+// ここから下を追加
+
 apply plugin: 'application'
+
 mainClassName = 'youkidkk.kotlin.sample.executablejar.HelloKotlinKt'
 
 jar {
